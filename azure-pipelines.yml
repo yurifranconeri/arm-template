@@ -18,7 +18,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'myResourceGroupInBrazil'
     location: 'Brazil South'
-    csmFile: 'https://raw.githubusercontent.com/yurifranconeri/arm-template/master/CreateWebApp/get-started-deployment/linked-template/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/yurifranconeri/arm-template/master/CreateWebApp/get-started-deployment/linked-template/azuredeploy.json'
     templateLocation: 'Linked artifact'
     overrideParameters: '-projectName yurifrnm -linkedTemplateUri https://raw.githubusercontent.com/yurifranconeri/arm-template/master/CreateWebApp/get-started-deployment/linked-template/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
